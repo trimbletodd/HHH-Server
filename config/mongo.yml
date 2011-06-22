@@ -1,5 +1,5 @@
 defaults: &defaults
-  host: 127.0.0.1
+  host: harriers.heroku.com
   port: 27017
 
 development:
@@ -13,6 +13,6 @@ test:
 # set these environment variables on your prod server
 production:
   <<: *defaults
-  database: hhh_prod
-  username: <%= ENV['MONGO_USERNAME'] %>
-  password: <%= ENV['MONGO_PASSWORD'] %>
+  database: hhh
+  username: site
+  password: HashesAndHashes
