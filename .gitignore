@@ -1,0 +1,9 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+*~
+#*#
+nohup.out
+db/hhh_*
+db/mongod.lock
