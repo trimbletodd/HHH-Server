@@ -13,6 +13,8 @@ test:
 # set these environment variables on your prod server
 production:
   <<: *defaults
-  database: hhh
+  host: staff.heroku.com
+  port: 10036
+  database: app574782
   username: site
   password: HashesAndHashes
