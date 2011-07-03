@@ -10,7 +10,8 @@ class User
 # 		lng: -123.22
 # 	}
 # }
-  ensure_index [[:current_loc, '2d']]
+
+#  ensure_index [[:current_loc, '2d']]
 
   key :device_id, String
   key :name, String
@@ -18,6 +19,6 @@ class User
 
   #has_one :current_loc, :class_name => "Location", :validate => true
 
-  validates_presence_of :current_loc
+#  validates_presence_of :current_loc
 
 end
