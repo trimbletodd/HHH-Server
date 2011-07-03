@@ -16,7 +16,7 @@ class User
   key :name, String
   key :email, String
 
-  has_one :current_loc, :class_name => "Location", :validate => true
+  #has_one :current_loc, :class_name => "Location", :validate => true
 
   validates_presence_of :current_loc
 

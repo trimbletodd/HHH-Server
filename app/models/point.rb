@@ -19,7 +19,7 @@ class Point
   key :type, String
   key :created_at, Date
   key :game_id, String
-  key :location, Location
+#  key :location, Location
   
   belongs_to :games
 

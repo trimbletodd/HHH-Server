@@ -3,7 +3,7 @@
   Name: <%=@user.name %><br />
   Email: <%= @user.email %><br />
   Device_id: <%= @user.device_id %><br />
-  Current Location: <%= @user.current_loc %><br />
+  Current Location: <%#= @user.current_loc %><br />
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %> |
