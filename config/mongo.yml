@@ -1,19 +1,19 @@
-defaults: &defaults
+development:
+  database: hhh_development
   host: localhost
   port: 27017
-
-development:
-  <<: *defaults
-  database: hhh_development
 
 test:
   <<: *defaults
   database: hhh_test
+  host: localhost
+  port: 27017
 
 # set these environment variables on your prod server
 production:
   host: staff.mongohq.com
   port: 10053
   database: app574782
-  username: site
-  password: HashesAndHashes
+  username: heroku
+  password: qslvyjaxsqoths0jv3q8f1
+#site/HashesAndHashes
